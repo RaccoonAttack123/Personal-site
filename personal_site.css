@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(7, 4, 58);
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+section{
+    width:100%;
+    height:100vh;
+    background-image:url("/Users/tingliu/Desktop/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: rgb(187, 144, 3);
+    box-shadow: rgb(187, 123, 3);
+    padding:0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:30px;
+    font-family: serif;
+    color: #2d2a2a;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo{
+    font-family: fantasy;
+    color: #2d2a2a;
+    font-size: 30px;
+    font-weight: 700;
+}
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.text-conatiner p:nth-child(1){
+    font-family: serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px;
+}
+
+.text-conatiner p:nth-child(2){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing:1px;
+    color: #000000;
+    font-size: 60px;
+}
+
+.text-conatiner p:nth-child(3){
+    font-family: serif;
+    color: #000000;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.text-conatiner {
+    line-height: 0px;
+    margin:45px 0px 25px
+}
+
+.text-conatiner {
+    position: absolute;
+    left: 13%;
+    top:42%;
+    transform: translate(-13%,-42%);
+}
+
+.text-conatiner button{
+    width: 150px;
+    height: 50;
+    border-radius: 15px;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin:0px 10px;
+}
+.hire-btn{
+    border: 2px #000000;
+    color: #000000;
+    background-color: rgb(225, 231, 235);
+}
+
+.down-rm{
+    background-color: rgb(225, 231, 235);
+    color: #000000;
+    border: none;
+}
+
+ button:active{
+    transform: scale(1.1);
+ }
